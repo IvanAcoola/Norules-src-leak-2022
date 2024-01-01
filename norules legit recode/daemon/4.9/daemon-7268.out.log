@@ -1,0 +1,1768 @@
+23:47:47.278 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:61335, -Xmx3G, -Dfile.encoding=UTF-8, -Duser.country=RU, -Duser.language=ru, -Duser.variant]
+23:47:47.434 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+23:47:47.654 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=25442dad-bd04-442a-8407-9ed8011999fb,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Users\MagicBook\Desktop\norules legit recode\daemon,pid=7268,idleTimeout=10800000,daemonOpts=-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:61335,-Xmx3G,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+23:47:49.300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+23:47:49.307 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+23:47:49.315 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.316 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+23:47:49.358 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+23:47:49.359 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Software Loopback Interface 1
+23:47:49.359 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+23:47:49.365 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.371 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.371 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)
+23:47:49.372 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+23:47:49.377 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.382 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.383 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft 6to4 Adapter
+23:47:49.384 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+23:47:49.389 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.395 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.395 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IKEv2)
+23:47:49.395 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+23:47:49.401 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.407 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.408 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter
+23:47:49.408 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech RadminVPN Ethernet Adapter
+23:47:49.414 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.420 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.421 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /26.187.190.22
+23:47:49.421 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Famatech RadminVPN Ethernet Adapter
+23:47:49.421 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+23:47:49.426 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.434 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.434 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (L2TP)
+23:47:49.435 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+23:47:49.442 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.449 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.450 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2
+23:47:49.450 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+23:47:49.457 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.463 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.464 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft IP-HTTPS Platform Adapter
+23:47:49.464 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-ProtonVPN Windows Adapter V9
+23:47:49.470 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.475 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.476 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-ProtonVPN Windows Adapter V9
+23:47:49.476 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+23:47:49.484 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.491 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.491 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPTP)
+23:47:49.491 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+23:47:49.497 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.503 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.503 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Kernel Debug Network Adapter
+23:47:49.503 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface ProtonVPN Tunnel
+23:47:49.508 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.516 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.517 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:64e7:ac32:607b:e6da%net6
+23:47:49.517 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface ProtonVPN Tunnel
+23:47:49.517 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
+23:47:49.524 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.531 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.532 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.20.10.3
+23:47:49.532 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
+23:47:49.532 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+23:47:49.538 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.545 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.545 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Bluetooth Device (Personal Area Network)
+23:47:49.545 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek USB GbE Family Controller
+23:47:49.551 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.558 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.558 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek USB GbE Family Controller
+23:47:49.558 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+23:47:49.565 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.571 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.571 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Teredo Tunneling Adapter
+23:47:49.571 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Switch Extension Adapter
+23:47:49.577 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.584 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.584 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Hyper-V Virtual Switch Extension Adapter
+23:47:49.585 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-NordVPN Windows Adapter V9
+23:47:49.592 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.601 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.601 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-NordVPN Windows Adapter V9
+23:47:49.601 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.608 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.616 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.616 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.616 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+23:47:49.624 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.629 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.630 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)
+23:47:49.630 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter
+23:47:49.636 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.642 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.642 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.56.1
+23:47:49.642 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface VirtualBox Host-Only Ethernet Adapter
+23:47:49.642 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface ProtonVPN Tunnel
+23:47:49.649 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.655 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.656 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface ProtonVPN Tunnel
+23:47:49.656 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+23:47:49.662 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.669 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.669 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (PPPOE)
+23:47:49.669 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+23:47:49.675 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.681 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.681 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (SSTP)
+23:47:49.681 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+23:47:49.687 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.692 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.693 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)
+23:47:49.693 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-NordVPN Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.699 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.706 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.706 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-NordVPN Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.706 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter
+23:47:49.713 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.719 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.719 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.22.240.1
+23:47:49.719 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:5862:e4c0:d8cc:15df%eth11
+23:47:49.719 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote multicast interface Hyper-V Virtual Ethernet Adapter
+23:47:49.720 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.725 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.731 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.731 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Hyper-V Virtual Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.731 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.737 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.742 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.742 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Hyper-V Virtual Ethernet Adapter-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.742 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-NordVPN Windows Adapter V9-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.749 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.754 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.754 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-NordVPN Windows Adapter V9-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.755 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech RadminVPN Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.760 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.766 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.767 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Famatech RadminVPN Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.767 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech RadminVPN Ethernet Adapter-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.772 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.779 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.780 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Famatech RadminVPN Ethernet Adapter-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.780 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-NordVPN Windows Adapter V9-QoS Packet Scheduler-0000
+23:47:49.786 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.791 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.792 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-NordVPN Windows Adapter V9-QoS Packet Scheduler-0000
+23:47:49.792 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech RadminVPN Ethernet Adapter-QoS Packet Scheduler-0000
+23:47:49.797 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.803 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.803 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Famatech RadminVPN Ethernet Adapter-QoS Packet Scheduler-0000
+23:47:49.803 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-NordVPN Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.808 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.814 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.814 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-NordVPN Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.815 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech RadminVPN Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.820 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.825 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.826 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Famatech RadminVPN Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.826 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Switch Extension Adapter-Hyper-V Virtual Switch Extension Filter-0000
+23:47:49.831 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.836 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.837 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Hyper-V Virtual Switch Extension Adapter-Hyper-V Virtual Switch Extension Filter-0000
+23:47:49.837 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.841 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.850 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.850 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.850 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+23:47:49.860 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.869 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.870 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+23:47:49.870 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.879 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.888 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.889 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.889 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+23:47:49.899 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.909 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.909 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+23:47:49.909 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-ProtonVPN Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.920 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.932 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.932 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-ProtonVPN Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.933 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-ProtonVPN Windows Adapter V9-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.942 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.951 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.952 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-ProtonVPN Windows Adapter V9-VirtualBox NDIS Light-Weight Filter-0000
+23:47:49.952 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-ProtonVPN Windows Adapter V9-QoS Packet Scheduler-0000
+23:47:49.961 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.969 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.970 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-ProtonVPN Windows Adapter V9-QoS Packet Scheduler-0000
+23:47:49.970 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface TAP-ProtonVPN Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.979 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:49.988 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:49.989 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface TAP-ProtonVPN Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:49.989 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP Native MAC Layer LightWeight Filter-0000
+23:47:49.998 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.006 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.007 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.007 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Virtual WiFi Filter Driver-0000
+23:47:50.015 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.024 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.024 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Virtual WiFi Filter Driver-0000
+23:47:50.025 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Native WiFi Filter Driver-0000
+23:47:50.033 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.041 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.042 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-Native WiFi Filter Driver-0000
+23:47:50.042 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-VirtualBox NDIS Light-Weight Filter-0000
+23:47:50.051 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.059 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.060 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-VirtualBox NDIS Light-Weight Filter-0000
+23:47:50.060 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-QoS Packet Scheduler-0000
+23:47:50.068 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.073 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.073 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-QoS Packet Scheduler-0000
+23:47:50.073 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.078 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.084 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.084 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.084 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.089 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.094 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.095 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.095 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+23:47:50.101 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.106 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.106 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+23:47:50.106 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.112 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.118 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.118 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.118 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+23:47:50.124 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.130 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.130 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+23:47:50.130 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.143 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.148 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.148 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.149 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+23:47:50.154 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.159 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.159 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+23:47:50.159 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000
+23:47:50.165 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.170 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.171 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000
+23:47:50.171 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+23:47:50.180 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.186 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.187 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+23:47:50.187 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.196 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.207 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.207 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.208 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-QoS Packet Scheduler-0000
+23:47:50.218 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.228 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.228 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Hyper-V Virtual Ethernet Adapter-QoS Packet Scheduler-0000
+23:47:50.228 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.237 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.247 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.247 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Hyper-V Virtual Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.247 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.257 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.267 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.267 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+23:47:50.267 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+23:47:50.278 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.289 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.289 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+23:47:50.290 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000
+23:47:50.299 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.308 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.308 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000
+23:47:50.308 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+23:47:50.319 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.328 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.329 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+23:47:50.329 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.339 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+23:47:50.349 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a multicast interface? true
+23:47:50.350 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+23:47:50.394 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [67487cf2-d3e3-40ca-9b46-d64324cc559b port:61340, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+23:47:50.410 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Jul 31 23:47:50 MSK 2022, with address: [67487cf2-d3e3-40ca-9b46-d64324cc559b port:61340, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+23:47:50.411 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [67487cf2-d3e3-40ca-9b46-d64324cc559b port:61340, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+23:47:50.412 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=25442dad-bd04-442a-8407-9ed8011999fb,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Users\MagicBook\Desktop\norules legit recode\daemon,pid=7268,idleTimeout=10800000,daemonOpts=-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:61335,-Xmx3G,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+23:47:50.419 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [67487cf2-d3e3-40ca-9b46-d64324cc559b port:61340, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=25442dad-bd04-442a-8407-9ed8011999fb,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Users\MagicBook\Desktop\norules legit recode\daemon,pid=7268,idleTimeout=10800000,daemonOpts=-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:61335,-Xmx3G,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+23:47:50.471 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+23:47:50.484 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+23:47:50.512 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+23:47:50.513 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+23:47:50.519 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+23:47:50.537 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:61341 to /127.0.0.1:61340.
+23:47:50.544 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+23:47:50.548 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+23:47:50.550 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+23:47:50.704 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: received class org.gradle.launcher.daemon.protocol.Build
+23:47:50.705 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 20: Received non-IO message from client: Build{id=84694fcb-e21a-4387-a8c1-613bb49dd67d, currentDir=C:\Users\MagicBook\Desktop\norules legit recode}
+23:47:50.705 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=84694fcb-e21a-4387-a8c1-613bb49dd67d, currentDir=C:\Users\MagicBook\Desktop\norules legit recode}.
+23:47:50.706 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=84694fcb-e21a-4387-a8c1-613bb49dd67d, currentDir=C:\Users\MagicBook\Desktop\norules legit recode} with connection: socket connection from /127.0.0.1:61340 to /127.0.0.1:61341.
+23:47:50.712 [ERROR] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=84694fcb-e21a-4387-a8c1-613bb49dd67d, currentDir=C:\Users\MagicBook\Desktop\norules legit recode}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:61340 to /127.0.0.1:61341] after 0.0 minutes of idle
+23:47:50.712 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [67487cf2-d3e3-40ca-9b46-d64324cc559b port:61340, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+23:47:50.712 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [67487cf2-d3e3-40ca-9b46-d64324cc559b port:61340, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+23:47:50.715 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+23:47:50.716 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+23:47:50.722 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+23:47:50.723 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+23:47:50.723 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+23:47:50.725 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=84694fcb-e21a-4387-a8c1-613bb49dd67d, currentDir=C:\Users\MagicBook\Desktop\norules legit recode}. Dispatching build started information...
+23:47:50.725 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+23:47:50.730 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {USERDOMAIN_ROAMINGPROFILE=LAPTOP-CLGUBJNI, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, USERNAME=MagicBook, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\MagicBook\OneDrive, IntelliJ IDEA Community Edition=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\MagicBook, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, VS160COMCOMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\, =::=::\, LOCALAPPDATA=C:\Users\MagicBook\AppData\Local, ChocolateyLastPathUpdate=132829017724595486, USERDOMAIN=LAPTOP-CLGUBJNI, LOGONSERVER=\\LAPTOP-CLGUBJNI, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, OMP_WAIT_POLICY=PASSIVE, OneDrive=C:\Users\MagicBook\OneDrive, APPDATA=C:\Users\MagicBook\AppData\Roaming, VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1, ChocolateyInstall=C:\ProgramData\chocolatey, VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MagicBook\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\MagicBook\AppData\Local\Programs\Python\Python39\;C:\Users\MagicBook\AppData\Local\Microsoft\WindowsApps;C:\Users\MagicBook\.dotnet\tools;C:\Users\MagicBook\AppData\Local\GitHubDesktop\bin;;C:\Users\MagicBook\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MagicBook\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;, OS=Windows_NT, COMPUTERNAME=LAPTOP-CLGUBJNI, PROCESSOR_REVISION=1801, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, TEMP=C:\Users\MAGICB~1\AppData\Local\Temp, SystemRoot=C:\WINDOWS, HOMEDRIVE=C:, USERPROFILE=C:\Users\MagicBook, TMP=C:\Users\MAGICB~1\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, IDEA_INITIAL_DIRECTORY=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin}
+23:47:50.759 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+23:47:50.759 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 7268). The daemon log file: C:\Users\MagicBook\Desktop\norules legit recode\daemon\4.9\daemon-7268.out.log
+23:47:50.766 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 2,9 GB]
+23:47:50.783 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+23:47:50.784 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=25442dad-bd04-442a-8407-9ed8011999fb,javaHome=C:\Program Files\Java\jdk1.8.0_181,daemonRegistryDir=C:\Users\MagicBook\Desktop\norules legit recode\daemon,pid=7268,idleTimeout=10800000,daemonOpts=-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=127.0.0.1:61335,-Xmx3G,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+New Dep: net.minecraftforge:forge:1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[2022-07-31 23:48:25] [INFO   ] Natives: C:\Users\MagicBook\Desktop\norules legit recode\build\natives 
+[2022-07-31 23:48:25] [INFO   ] Main Class: net.minecraft.launchwrapper.Launch 
+[2022-07-31 23:48:25] [INFO   ] Srg2Mcp: C:\Users\MagicBook\Desktop\norules legit recode\build\createSrgToMcp\output.srg 
+[2022-07-31 23:48:25] [INFO   ] Extra: [] 
+[2022-07-31 23:48:25] [INFO   ] Running with arguments: [--version, ${MC_VERSION}, --assetIndex, 1.12, --assetsDir, C:\Users\MagicBook\Desktop\norules legit recode\caches\forge_gradle\assets, --accessToken, {REDACTED}, --userProperties, [], --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker] 
+[23:48:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:48:27] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:48:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[23:48:28] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[23:48:28] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[23:48:28] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_181, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_181\jre
+[23:48:28] [main/DEBUG] [FML]: Java classpath at launch is:
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\build\classes\java\main
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\build\resources\main
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12\forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\forge_gradle\minecraft_repo\versions\1.12.2\client-extra.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.13\c18446ec4d5814f447d7a79b314ba9a27cc8dbc8\mergetool-1.0.13-forge.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20171003-1.12\mcp_snapshot-20171003-1.12.zip
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.jline\jline\3.5.1\51800e9d7a13608894a5a28eed0f5c7fa2f300fb\jline-3.5.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2_mc\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2_mc.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.15.0\ba55c13d7ac2fd44df9cc8074455719a33f375b9\log4j-core-2.15.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.15.0\4a5aa7e55a29391c6f66e0b259d5189aa11e45d0\log4j-api-2.15.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.minecraftforge\legacydev\0.2.3.1\f2cd4a8c9f09faf1c1e4a9a4c65df36e634f95db\legacydev-0.2.3.1-fatjar.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\patchy\1.3.9\eb8bb7b66fa0e2152b1b40b3856e82f7619439ee\patchy-1.3.9.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\realms\1.10.22\bd0dccebdf3744c75f1ca20063f16e8f7d5e663f\realms-1.10.22.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b04f3ee8f5e43fa3b162981b50bb72fe1acabb33\lwjgl-platform-2.9.4-nightly-20150209.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\84a4b856389cc4f485275b1f63497a95a857a443\text2speech-1.10.3-natives-windows.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar
+[23:48:28] [main/DEBUG] [FML]: Java library path at launch is:
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Java\jdk1.8.0_181\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS\Sun\Java\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Common Files\Oracle\Java\javapath
+[23:48:28] [main/DEBUG] [FML]:     C:\Python310\Scripts\
+[23:48:28] [main/DEBUG] [FML]:     C:\Python310\
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS\System32\Wbem
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[23:48:28] [main/DEBUG] [FML]:     C:\WINDOWS\System32\OpenSSH\
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\dotnet\
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files (x86)\QuickTime\QTSystem\
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Calibre2\
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Git\cmd
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\nodejs\
+[23:48:28] [main/DEBUG] [FML]:     C:\ProgramData\chocolatey\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Docker\Docker\resources\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\ProgramData\DockerDesktop\version-bin
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files (x86)\Bitvise SSH Client
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Java\jdk1.8.0_181\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Java\jdk-16.0.2\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\Java\jdk-17.0.1\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\MySQL\MySQL Shell 8.0\bin\
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\AppData\Local\Programs\Python\Python39\Scripts\
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\AppData\Local\Programs\Python\Python39\
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\AppData\Local\Microsoft\WindowsApps
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\.dotnet\tools
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\AppData\Local\GitHubDesktop\bin
+[23:48:28] [main/DEBUG] [FML]:     
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\AppData\Local\Programs\Microsoft VS Code\bin
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\AppData\Roaming\npm
+[23:48:28] [main/DEBUG] [FML]:     C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin
+[23:48:28] [main/DEBUG] [FML]:     
+[23:48:28] [main/DEBUG] [FML]:     .
+[23:48:28] [main/DEBUG] [FML]:     C:\Users\MagicBook\Desktop\norules legit recode\build\natives
+[23:48:28] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[23:48:28] [main/ERROR] [FML]: Full: C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[23:48:28] [main/ERROR] [FML]: Trimmed: c:/users/magicbook/desktop/norules legit recode/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[23:48:28] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: .\libraries
+[23:48:28] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[23:48:28] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[23:48:28] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2022-07-31 23:48:30,335 main WARN Disabling terminal, you're running in an unsupported environment.
+[23:48:30] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[23:48:30] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[23:48:30] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[23:48:30] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[23:48:30] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[23:48:30] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[23:48:30] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[23:48:30] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[23:48:30] [main/DEBUG] [FML]: Discovering coremods
+[23:48:30] [main/INFO] [FML]: Searching C:\Users\MagicBook\Desktop\norules legit recode\run\.\mods for mods
+[23:48:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:48:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:48:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:48:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:48:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:48:30] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[23:48:31] [main/DEBUG] [FML]: Injection complete
+[23:48:31] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[23:48:31] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[23:48:32] [main/DEBUG] [FML]: Loading deobfuscation resource C:\Users\MagicBook\Desktop\norules legit recode\build\createSrgToMcp\output.srg with 36076 records
+[23:48:39] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[23:48:39] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[23:48:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:48:39] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[23:48:39] [main/DEBUG] [FML]: Injection complete
+[23:48:39] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[23:48:39] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[23:48:39] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[23:48:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[23:48:40] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[23:48:40] [main/DEBUG] [FML]: Validating minecraft
+[23:48:41] [main/DEBUG] [FML]: Minecraft validated, launching...
+[23:48:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:48:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[23:48:41] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[23:48:43] [Client thread/INFO] [minecraft/Minecraft]: Setting user: Player446
+[23:48:52] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshot
+[23:48:52] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot created
+[23:48:52] [Client thread/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[23:48:56] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.006s
+[23:48:56] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_181, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 237270648 bytes (226 MB) / 541589504 bytes (516 MB) up to 1655701504 bytes (1579 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.13560 Compatibility Profile Context 26.20.11030.22001' Renderer: 'AMD Radeon(TM) Vega 8 Graphics'
+[23:48:57] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[23:48:57] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[23:48:57] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[23:48:57] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[23:48:58] [Client thread/DEBUG] [FML]: File C:\Users\MagicBook\Desktop\norules legit recode\run\config\injectedDependencies.json not found. No dependencies injected
+[23:48:58] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[23:48:59] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related directory at C:\Users\MagicBook\Desktop\norules legit recode\build\classes\java\main, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related directory at C:\Users\MagicBook\Desktop\norules legit recode\build\resources\main, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12\forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\forge_gradle\minecraft_repo\versions\1.12.2\client-extra.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.13\c18446ec4d5814f447d7a79b314ba9a27cc8dbc8\mergetool-1.0.13-forge.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20171003-1.12\mcp_snapshot-20171003-1.12.zip, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\net.minecraftforge\legacydev\0.2.3.1\f2cd4a8c9f09faf1c1e4a9a4c65df36e634f95db\legacydev-0.2.3.1-fatjar.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\patchy\1.3.9\eb8bb7b66fa0e2152b1b40b3856e82f7619439ee\patchy-1.3.9.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\84a4b856389cc4f485275b1f63497a95a857a443\text2speech-1.10.3-natives-windows.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar, examining for mod candidates
+[23:48:59] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[23:48:59] [Client thread/INFO] [FML]: Searching C:\Users\MagicBook\Desktop\norules legit recode\run\.\mods for mods
+[23:48:59] [Client thread/DEBUG] [FML]: Examining directory main for potential mods
+[23:48:59] [Client thread/DEBUG] [FML]: No mcmod.info file found in directory main
+[23:48:59] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (Main) - loading
+[23:48:59] [Client thread/DEBUG] [FML]: Examining directory main for potential mods
+[23:48:59] [Client thread/DEBUG] [FML]: Found an mcmod.info file in directory main
+[23:48:59] [Client thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar for potential mods
+[23:48:59] [Client thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar appears to be missing an mcmod.info file
+[23:49:00] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 365410600 nanos
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file client-extra.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container client-extra.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file jsr305-3.0.1.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file mergetool-1.0.13-forge.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container mergetool-1.0.13-forge.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file mcp_snapshot-20171003-1.12.zip for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container mcp_snapshot-20171003-1.12.zip appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file legacydev-0.2.3.1-fatjar.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container legacydev-0.2.3.1-fatjar.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file patchy-1.3.9.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container patchy-1.3.9.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3-natives-windows.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3-natives-windows.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file asm-util-6.2.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container asm-util-6.2.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[23:49:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file asm-analysis-6.2.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container asm-analysis-6.2.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[23:49:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file asm-tree-6.2.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container asm-tree-6.2.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[23:49:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file asm-6.2.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container asm-6.2.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+[23:49:01] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\MagicBook\Desktop\norules legit recode\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 23 more
+[23:49:01] [Client thread/DEBUG] [FML]: Examining file plexus-utils-3.1.0.jar for potential mods
+[23:49:01] [Client thread/DEBUG] [FML]: The mod container plexus-utils-3.1.0.jar appears to be missing an mcmod.info file
+[23:49:01] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[23:49:01] [Client thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[23:49:02] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[23:49:02] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[23:49:02] [Client thread/DEBUG] [FML]: Enabling mod ghggfd
+[23:49:02] [Client thread/DEBUG] [FML]: Mod dsavcxvcg is missing a pack.mcmeta file, substituting a dummy one
+[23:49:02] [Client thread/DEBUG] [FML]: Mod sorting data
+[23:49:02] [Client thread/DEBUG] [FML]: 	ghggfd(dsavcxvcg:2.7.3): main ()
+[23:49:02] [Client thread/DEBUG] [FML]: Loading @Config anotation data
+[23:49:02] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.035s
+[23:49:02] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.003s
+[23:49:03] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ghggfd] at CLIENT
+[23:49:03] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ghggfd] at SERVER
+[23:49:03] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 1.357s
+[23:49:03] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: null
+[23:49:03] [Client thread/DEBUG] [forge]: Preloading CrashReport Classes
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
+[23:49:03] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[23:49:04] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[23:49:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[23:49:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.418s
+[23:49:04] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into ghggfd
+[23:49:04] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for ghggfd
+[23:49:04] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into ghggfd for type INSTANCE
+[23:49:04] [Client thread/DEBUG] [FML]: Bar Step: Construction - dsavcxvcg took 0.333s
+[23:49:04] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 2.146s
+[23:49:04] [Client thread/DEBUG] [FML]: Mod signature data
+[23:49:04] [Client thread/DEBUG] [FML]:  	Valid Signatures:
+[23:49:04] [Client thread/DEBUG] [FML]:  	Missing Signatures:
+[23:49:04] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[23:49:04] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[23:49:04] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar
+[23:49:04] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2860)	forge-1.12.2-14.23.5.2860_mapped_snapshot_20171003-1.12-recomp.jar
+[23:49:04] [Client thread/DEBUG] [FML]: 		ghggfd	(dsavcxvcg	2.7.3)	main
+[23:49:04] [Client thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:dsavcxvcg
+[23:49:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.020s
+[23:49:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.011s
+[23:49:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.012s
+[23:49:04] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:dsavcxvcg took 0.004s
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.307s
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.312s
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.359s
+[23:49:05] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[23:49:05] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[23:49:05] [Client thread/DEBUG] [FML]: Mod dsavcxvcg is missing a pack.mcmeta file, substituting a dummy one
+[23:49:05] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[23:49:05] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[23:49:05] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[23:49:05] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.002s
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.003s
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[23:49:05] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.509s
+[23:49:05] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - dsavcxvcg took 0.002s
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Finished: PreInitialization took 0.517s
+[23:49:05] [Client thread/INFO] [FML]: Applying holder lookups
+[23:49:05] [Client thread/INFO] [FML]: Holder lookups applied
+[23:49:05] [Client thread/INFO] [FML]: Applying holder lookups
+[23:49:05] [Client thread/INFO] [FML]: Holder lookups applied
+[23:49:05] [Client thread/INFO] [FML]: Applying holder lookups
+[23:49:05] [Client thread/INFO] [FML]: Holder lookups applied
+[23:49:05] [Client thread/INFO] [FML]: Applying holder lookups
+[23:49:05] [Client thread/INFO] [FML]: Holder lookups applied
+[23:49:05] [Client thread/INFO] [FML]: Injecting itemstacks
+[23:49:05] [Client thread/INFO] [FML]: Itemstack injection complete
+[23:49:05] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[23:49:10] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.39",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-latest": "40.1.68",
+    "1.18.2-recommended": "40.1.0",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.1"
+  }
+}
+[23:49:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Finished: Loading sounds took 9.495s
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SoundHandler took 9.551s
+[23:49:15] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.016s
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.013s
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.030s
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.027s
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - GL Setup took 0.005s
+[23:49:15] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Texture Map took 0.020s
+[23:49:15] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[23:49:15] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:49:16] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[23:49:16] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[23:49:16] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[23:49:16] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[23:49:16] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[23:49:16] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[23:49:16] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[23:49:16] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[23:49:33] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: blocks took 17.302s
+[23:49:43] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: items took 9.809s
+[23:49:43] [Client thread/INFO] [FML]: Max texture size: 16384
+[23:49:57] [Client thread/DEBUG] [FML]: Bar Finished: Texture stitching took 14.461s
+[23:49:58] [Client thread/DEBUG] [FML]: Bar Finished: Texture stitching took 0.049s
+[23:49:58] [Client thread/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
+[23:49:58] [Client thread/DEBUG] [FML]: Bar Finished: Texture creation took 0.056s
+[23:49:58] [Client thread/DEBUG] [FML]: Bar Finished: Texture mipmap and upload took 0.397s
+[23:49:59] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: baking took 1.107s
+[23:49:59] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelManager took 43.720s
+[23:49:59] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Model Manager took 44.087s
+[23:50:00] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderItem took 0.041s
+[23:50:00] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Item Renderer took 0.984s
+[23:50:00] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[23:50:00] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[23:50:01] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[23:50:01] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SearchTreeManager took 0.241s
+[23:50:02] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Entity Renderer took 1.218s
+[23:50:02] [Client thread/DEBUG] [FML]: Bar Finished: Rendering Setup took 46.315s
+[23:50:02] [Client thread/INFO] [FML]: Applying holder lookups
+[23:50:02] [Client thread/INFO] [FML]: Holder lookups applied
+[23:50:02] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.001s
+[23:50:02] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
+[23:50:02] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.001s
+[23:50:02] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: Initialization - dsavcxvcg took 2.472s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Finished: Initialization took 2.476s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.014s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - dsavcxvcg took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.017s
+[23:50:04] [Client thread/INFO] [FML]: Injecting itemstacks
+[23:50:04] [Client thread/INFO] [FML]: Itemstack injection complete
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.032s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - dsavcxvcg took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.034s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[23:50:04] [Client thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[23:50:04] [Client thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[23:50:04] [Client thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[23:50:04] [Client thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[23:50:04] [Client thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[23:50:04] [Client thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[23:50:04] [Client thread/DEBUG] [FML]: Sorting recipes
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.025s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - dsavcxvcg took 0.001s
+[23:50:04] [Client thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.029s
+[23:50:04] [Client thread/DEBUG] [FML]: Freezing registries
+[23:50:05] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[23:50:05] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[23:50:05] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
+[23:50:05] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.704s
+[23:50:05] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - dsavcxvcg took 0.006s
+[23:50:05] [Client thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.713s
+[23:50:05] [Client thread/DEBUG] [FML]: All registries frozen
+[23:50:05] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[23:50:06] [Client thread/DEBUG] [FML]: Bar Finished: Loading took 67.884s
+[23:50:06] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[23:50:07] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - CloudRenderer took 0.024s
+[23:50:08] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[23:50:19] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[23:50:19] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[23:50:19] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft took 0.001s
+[23:50:19] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.001s
+[23:50:19] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.001s
+[23:50:19] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.001s
+[23:50:19] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - dsavcxvcg took 0.002s
+[23:50:19] [Server thread/DEBUG] [FML]: Bar Finished: ServerAboutToStart took 0.005s
+[23:50:19] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[23:50:20] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[23:50:20] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[23:50:20] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[23:50:20] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.170s
+[23:50:20] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - dsavcxvcg took 0.001s
+[23:50:20] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.172s
+[23:50:20] [Server thread/INFO] [FML]: Applying holder lookups
+[23:50:20] [Server thread/INFO] [FML]: Holder lookups applied
+[23:50:20] [Server thread/DEBUG] [FML]: Loading persistent fluid defaults from world
+[23:50:20] [Server thread/DEBUG] [FML]: The fluid minecraft:lava has been selected as the default fluid for lava
+[23:50:20] [Server thread/DEBUG] [FML]: The fluid minecraft:water has been selected as the default fluid for water
+[23:50:20] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@1f28fda3)
+[23:50:22] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[23:50:22] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@1f28fda3)
+[23:50:22] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@1f28fda3)
+[23:50:22] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[23:50:23] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing spawn area: 28%
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.001s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.001s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.103s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - dsavcxvcg took 0.001s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarting took 0.105s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - dsavcxvcg took 0.000s
+[23:50:23] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.002s
+[23:50:24] [Server thread/DEBUG] [FML]: Queueing dimension -1 to unload
+[23:50:24] [Server thread/DEBUG] [FML]: Queueing dimension 1 to unload
+[23:50:24] [Server thread/INFO] [FML]: Unloading dimension -1
+[23:50:24] [Server thread/INFO] [FML]: Unloading dimension 1
+[23:50:24] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 7, from 10
+[23:50:28] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[23:50:28] [Netty Local Client IO #0/DEBUG] [FML]:   Next: HELLO
+[23:50:29] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[23:50:29] [Server thread/DEBUG] [FML]:   Next: HELLO
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: Server FML protocol version 2, 4 byte dimension received 0
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]:   Next: WAITINGSERVERDATA
+[23:50:29] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: Received override dimension 0
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[23:50:29] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[23:50:29] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,ghggfd@2.7.3,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]:   Next: PENDINGCOMPLETE
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]:   Next: COMPLETE
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]:   Next: COMPLETE
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]:   Next: DONE
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: The fluid minecraft:lava has been selected as the default fluid for lava
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: The fluid minecraft:water has been selected as the default fluid for water
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[23:50:29] [Netty Local Client IO #0/DEBUG] [FML]:   Next: DONE
+[23:50:29] [Netty Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[23:50:29] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[23:50:29] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:50:29] [Server thread/INFO] [minecraft/PlayerList]: Player446[local:E:6f54ba4d] logged in with entity id 89 at (636.716012056895, 4.0, -1299.4451041836014)
+[23:50:29] [Server thread/INFO] [minecraft/MinecraftServer]: Player446 joined the game
+[23:50:29] [Client thread/DEBUG] [FML]: Overriding dimension: using 0
+[23:50:31] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:50:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:50:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:50:31] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2800ms behind, skipping 56 tick(s)
+[23:50:32] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 41 advancements
+[23:50:36] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:50:36] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:50:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:50:38] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:50:38] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:50:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:52:33] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 47 advancements
+[23:52:41] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:52:41] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:52:41] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:52:45] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3879ms behind, skipping 77 tick(s)
+[23:52:47] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:52:47] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:52:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:53:33] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3219ms behind, skipping 64 tick(s)
+[23:53:36] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:53:36] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:53:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:54:12] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:54:18] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3411ms behind, skipping 68 tick(s)
+[23:54:21] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:54:21] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:54:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:54:55] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3100ms behind, skipping 62 tick(s)
+[23:54:58] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:54:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:54:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:55:26] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3024ms behind, skipping 60 tick(s)
+[23:55:27] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:55:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:55:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:56:33] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3254ms behind, skipping 65 tick(s)
+[23:56:36] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:56:36] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:56:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:56:59] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3618ms behind, skipping 72 tick(s)
+[23:59:02] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3074ms behind, skipping 61 tick(s)
+[23:59:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:59:08] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:59:08] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:59:08] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:59:31] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2978ms behind, skipping 59 tick(s)
+[23:59:33] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:59:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:59:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:59:52] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3157ms behind, skipping 63 tick(s)
+[23:59:54] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:59:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:59:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[23:59:58] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[23:59:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[23:59:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:00:37] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3406ms behind, skipping 68 tick(s)
+[00:01:11] [Client thread/WARN] [minecraft/NetHandlerPlayClient]: Received passengers for unknown entity
+[00:01:18] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3434ms behind, skipping 68 tick(s)
+[00:01:19] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:01:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:01:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:01:25] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:01:26] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:01:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:01:26] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:01:51] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3298ms behind, skipping 65 tick(s)
+[00:01:53] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:01:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:01:53] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:02:22] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3209ms behind, skipping 64 tick(s)
+[00:02:51] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3393ms behind, skipping 67 tick(s)
+[00:02:54] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:02:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:02:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:03:42] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3121ms behind, skipping 62 tick(s)
+[00:04:32] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3029ms behind, skipping 60 tick(s)
+[00:05:05] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3414ms behind, skipping 68 tick(s)
+[00:06:14] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2867ms behind, skipping 57 tick(s)
+[00:06:18] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:06:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:06:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:06:45] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3333ms behind, skipping 66 tick(s)
+[00:06:45] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] /time, /title
+[00:06:46] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] add, query, set
+[00:06:47] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] add, query, set
+[00:06:47] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] add, query, set
+[00:06:47] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] day, night
+[00:06:48] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] day, night
+[00:06:48] [Server thread/INFO] [minecraft/MinecraftServer]: [Player446: Set the time to 13000]
+[00:06:48] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Set the time to 13000
+[00:06:52] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:06:52] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:06:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:07:14] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:07:20] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3601ms behind, skipping 72 tick(s)
+[00:07:25] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:07:25] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:07:25] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:07:31] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:07:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:07:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:08:37] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4033ms behind, skipping 80 tick(s)
+[00:09:05] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3342ms behind, skipping 66 tick(s)
+[00:09:07] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:09:07] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:09:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:09:56] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3466ms behind, skipping 69 tick(s)
+[00:09:58] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:09:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:09:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:10:39] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3219ms behind, skipping 64 tick(s)
+[00:11:11] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:11:17] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3811ms behind, skipping 76 tick(s)
+[00:11:17] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[00:11:17] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:11:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[00:11:52] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3208ms behind, skipping 64 tick(s)
+[00:12:59] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3830ms behind, skipping 76 tick(s)
+[00:15:13] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4253ms behind, skipping 85 tick(s)
+[00:16:05] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3534ms behind, skipping 70 tick(s)
+[00:16:48] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3639ms behind, skipping 72 tick(s)
+[00:18:00] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3759ms behind, skipping 75 tick(s)
+[00:18:21] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3066ms behind, skipping 61 tick(s)
+[00:18:37] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3800ms behind, skipping 76 tick(s)
+AL lib: (EE) MMDevApiProc: WaitForSingleObjectEx error: 0x102
+AL lib: (EE) MMDevApiProc: WaitForSingleObjectEx error: 0x102
+[03:18:48] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 10794553ms behind, skipping 215891 tick(s)
+AL lib: (EE) MMDevApiProc: WaitForSingleObjectEx error: 0x102
+[14:10:38] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 39099105ms behind, skipping 781982 tick(s)
+[14:12:09] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:12:09] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:12:09] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:12:13] [Server thread/INFO] [minecraft/MinecraftServer]: Player446 has made the advancement [Monster Hunter]
+[14:12:13] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Player446 has made the advancement [Monster Hunter]
+[14:12:13] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 57 advancements
+[14:12:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:12:52] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 57 advancements
+[14:13:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:14:20] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:14:33] [Client thread/WARN] [minecraft/NetHandlerPlayClient]: Received passengers for unknown entity
+[14:14:47] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:14:47] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:14:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:15:08] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:15:31] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3149ms behind, skipping 62 tick(s)
+[14:15:54] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:15:59] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:15:59] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:15:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:16:33] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2431ms behind, skipping 48 tick(s)
+[14:16:38] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:16:38] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:16:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:16:59] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:16:59] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:16:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:17:16] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2667ms behind, skipping 53 tick(s)
+[14:17:24] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:17:24] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:17:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:17:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:18:27] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 57 advancements
+[14:18:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:18:39] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:18:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:18:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:19:13] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:19:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:19:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:19:28] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:19:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:19:28] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:19:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:19:34] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:19:34] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:19:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:19:56] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 57 advancements
+[14:20:01] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2428ms behind, skipping 48 tick(s)
+[14:20:05] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:20:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:20:05] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:20:13] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:20:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:20:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:20:39] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2185ms behind, skipping 43 tick(s)
+[14:20:58] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:21:39] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:21:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:21:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:21:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:22:10] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:22:10] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:22:10] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:22:27] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:22:27] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:22:27] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:23:39] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2446ms behind, skipping 48 tick(s)
+[14:23:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:23:40] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:23:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:23:40] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:24:41] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2367ms behind, skipping 47 tick(s)
+[14:24:43] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:24:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:24:43] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:24:46] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] /teleport, /tell, /tellraw, /testfor, /testforblock, /testforblocks, /time, /title, /toggledownfall, /tp, /trigger
+[14:24:46] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] /teleport, /tell, /tellraw, /testfor, /testforblock, /testforblocks, /time, /title, /toggledownfall, /tp, /trigger
+[14:24:48] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:24:48] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:24:48] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:24:50] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] /time, /title
+[14:24:51] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] add, query, set
+[14:24:55] [Server thread/INFO] [minecraft/MinecraftServer]: [Player446: Set the time to 19000]
+[14:24:55] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Set the time to 19000
+[14:24:57] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:24:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:24:57] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:25:44] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2358ms behind, skipping 47 tick(s)
+[14:25:46] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:25:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:25:46] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:26:09] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2317ms behind, skipping 46 tick(s)
+[14:26:11] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:26:11] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:26:11] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:26:51] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:26:51] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:26:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:26:57] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:26:57] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:26:59] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:26:59] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:26:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:04] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:27:04] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:27:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:13] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:27:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:27:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:18] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:27:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:27:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:22] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:27:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:27:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:25] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:27:25] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:27:25] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:33] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:27:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:27:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:27:37] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:27:37] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:27:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:28:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:29:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:29:22] [Server thread/INFO] [minecraft/MinecraftServer]: [Player446: Set the time to 1000]
+[14:29:22] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Set the time to 1000
+[14:29:26] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:29:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:29:26] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:29:30] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:29:30] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:29:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:29:37] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:29:37] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:29:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:29:45] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2346ms behind, skipping 46 tick(s)
+[14:29:56] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:29:56] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:29:56] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:30:08] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:30:14] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:30:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:30:14] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:30:16] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:30:17] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:30:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:30:50] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:30:50] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:30:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:31:07] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2347ms behind, skipping 46 tick(s)
+[14:31:12] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:31:46] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:31:47] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:31:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:35:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:35:20] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:35:20] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:35:20] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:35:26] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:35:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:35:26] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:35:55] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:35:55] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:35:55] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:37:09] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2573ms behind, skipping 51 tick(s)
+[14:37:12] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:37:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:37:12] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:37:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:37:43] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 57 advancements
+[14:38:13] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:38:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:38:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:38:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:38:50] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:38:50] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:38:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:39:02] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:39:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:39:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:45:07] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2716ms behind, skipping 54 tick(s)
+[14:45:18] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:45:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:45:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:46:03] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:46:42] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:46:42] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:46:42] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:47:42] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:47:55] [Server thread/INFO] [minecraft/MinecraftServer]: Player446 has made the advancement [Stone Age]
+[14:47:55] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Player446 has made the advancement [Stone Age]
+[14:47:55] [Client thread/INFO] [minecraft/AdvancementList]: Loaded 71 advancements
+[14:48:11] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:48:11] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:48:11] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:48:38] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:48:38] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:48:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:48:53] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:48:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:48:53] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:49:18] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:49:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:49:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:49:24] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:49:29] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:49:29] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:49:29] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:49:31] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:49:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:49:31] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:49:32] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:49:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:49:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:49:33] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:49:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:49:33] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:49:35] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:49:35] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:49:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:50:51] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2571ms behind, skipping 51 tick(s)
+[14:50:52] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:50:52] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:50:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:51:02] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:51:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:51:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:51:05] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:51:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:51:05] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:51:13] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:51:13] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:51:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:51:22] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:51:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:51:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:51:26] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[14:51:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:51:26] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:56:18] [Client thread/INFO] [minecraft/Minecraft]: Stopping!
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.007s
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.004s
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.003s
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - dsavcxvcg took 0.002s
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.016s
+[14:56:18] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[14:56:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[14:56:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[14:56:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:56:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:56:18] [Server thread/INFO] [FML]: Unloading dimension 0
+[14:56:18] [Server thread/DEBUG] [FML]: Reverting to frozen data state.
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[14:56:18] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.213s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - dsavcxvcg took 0.000s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.214s
+[14:56:19] [Server thread/INFO] [FML]: Applying holder lookups
+[14:56:19] [Server thread/INFO] [FML]: Holder lookups applied
+[14:56:19] [Server thread/DEBUG] [FML]: Frozen state restored.
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.001s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - dsavcxvcg took 0.001s
+[14:56:19] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.003s
+[14:56:19] [Client thread/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[14:56:19] [Client thread/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
