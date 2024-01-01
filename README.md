@@ -1,3 +1,5 @@
 ***NoRules legit client source code, 2022y***
 
-for educational purposes only.
+*Its not my code, it was bought some time ago*
+
+> Use it for educational purposes only.
